@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  height: 500px;
+  position: relative;
+}
+
+.header__bg {
+  background-image: url('Your_Image.JPG');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  filter: brightness(50%) contrast(80%) grayscale(100%);
+}
+
+.header__name {
+  color: white;
+  font-size: 36px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 1px 1px black;
+}
+
+.header__designation {
+  color: white;
+  font-size: 24px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 1px 1px black;
+}
+
+.section__title {
+  color: black;
+  font-size: 36px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.about, .skills, .resume, .contact {
+  max-width: 800px;
+  margin: 60px auto;

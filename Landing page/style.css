@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f5f5f5;
+}
+
+header {
+  background-image: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3em;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 0.5em;
+}
+
+header p {
+  font-size: 1.2em;
+  color: #fff;
+  margin-bottom: 2em;
+}
+
+header .btn {
+  font-size: 1.2em;
+  font-weight: 500;
+  padding: 0.75em 1.5em;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+header .btn:hover {
+  background-color: #fff;
+  color: #7f7fd5;
+}
+
+main {
+  padding: 4em 2em;
+}
+
+main h2 {
+  font-size: 2em;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 1.5em;
+  text-align: center;
+}
+
+main p {
+  font-size: 1.2em;
+  color: #333;
+  line-height: 1.5;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.service {
+  width: 30%;
+  text-align: center;
+  margin: 2em 1.5em;
+}
+
+.service i {
+  font-size: 3em;
+  color: #7f7fd5;
+  margin-bottom: 1.5em;
+}
+
+.service h3 {
+  font-size: 1.5em;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 1em;
+}
+
+.service p {
+  font-size: 1.2em;
+  color: #333;
+  line-height: 1.5;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2em;
+}
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 80%;
+  padding: 1em;
+  font-size: 1.2em;
+  margin-bottom: 1.5em;
+  border: 2px solid #7f7fd5;
+  border-radius: 50px;
+}
+
+form input[type="submit"] {
+  font-size: 1.2em;
+  font-weight: 500;
+  padding: 0.75em 1.5em;
+  border: 2px solid #7f7fd5;
+  border-radius: 50px;
+  color: #7f7fd5;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #7f7fd5;
+  color: #fff;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.contact-info i {
+  font-size: 2em;
+  color: #7f7fd5;
+  margin-right: 1em;
+}
+
+.contact-info p {
+  font-size: 1.2em;
+  color: #333;
+  margin: 0;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 2em 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  font-size: 1.2em;
+  margin: 0;
+}
